@@ -12,3 +12,4 @@ while timesToSpam > numOfTimes:
     # time.sleep(0.3) # how fast do u want it to print
     pyautogui.press("enter")
     numOfTimes +=1
+print("Done.")
