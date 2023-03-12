@@ -9,7 +9,7 @@ time.sleep(5)
 
 while timesToSpam > numOfTimes:
     pyautogui.press(spamLetter)
-    # time.sleep(0.3) # how fast do u want it to print
+    # time.sleep(0.3) # how fast do you want it to print
     pyautogui.press("enter")
     numOfTimes +=1
 print("Done.")
